@@ -189,7 +189,8 @@
         "Weapons": "Armas",
         "Weight": "Peso",
         "PSIONIC_ABILITIES": "HABILIDADES PSIÔNICAS",
-        "Traits": "Características"
+        "Traits": "Características",
+        "Augments": "Aprimoramentos"
       },
       "Notes": {
         "NOTES": "NOTAS DO PERSONAGEM",
@@ -313,7 +314,7 @@
         "Omnivore": "Onívoro",
         "Carnivore": "Carnívoro",
         "Scavenger": "Necrófago",
-        "Other": "DM Personalizado"
+        "Other": "Outro"
       },
       "Tipo": "Tipo",
       "Subtype": {
@@ -356,7 +357,14 @@
       "FightingWithdrawal": "Retirada Combatendo",
       "KeepFighting": "Continuar Lutando",
       "Advance": "Avançar",
-      "FightToTheDeath": "Fight para O Death!"
+      "FightToTheDeath": "Fight para O Death!",
+      "NicheType": {
+        "Herbivore": "Herbívoro",
+        "Omnivore": "Onívoro",
+        "Carnivore": "Carnívoro",
+        "Scavenger": "Necrófago",
+        "Other": "Outro"
+      }
     },
     "Robot": {
       "RobotNotes": "Notas do Robô",
@@ -364,7 +372,8 @@
         "BuildPoints": "Pontos/Espaços de Construção",
         "Used": "Usados",
         "Max": "Máx"
-      }
+      },
+      "Características": "Características"
     },
     "Chat": {
       "Roll": {
@@ -628,7 +637,7 @@
         "purchasePrice": "Purchase Preço",
         "isIllegal": "Illegal?",
         "unitWeight": "Unidade Peso",
-        "pctDisplacement": "% Displacement Peso",
+        "pctDisplacement": "% Deslocamento Peso",
         "CargoItem": "Carga Item",
         "CargoLocation": "Carga Local",
         "Price": "Preço",
@@ -653,7 +662,7 @@
         "isExtended": "É Pop-up extended?",
         "extended": "extended",
         "retracted": "retracted",
-        "Displacement": "Displacement",
+        "Displacement": "Deslocamento",
         "Description": "Descrição",
         "ComponenteTipo": "Componente Tipo",
         "powerPerUnit": "por unidade",
@@ -662,7 +671,7 @@
         "installedCost": "InstTodosed Custo (MCr)",
         "techLevel": "Nível Tecnológico",
         "diceModifier": "Dados Modificador",
-        "displacementWeight": "Displacement Peso (d-tons)",
+        "displacementWeight": "Deslocamento Peso (d-tons)",
         "PowerUsed": "Energia Consumed ou Generated (+)",
         "Quantity": "Quantity",
         "AttackDamage": "Ataque Dano",
@@ -845,6 +854,22 @@
         "Used": "Usados",
         "Pts": "Pts.",
         "Level": "Nível"
+      },
+      "Movement": {
+        "DistFt": "Pés",
+        "DistMi": "Milhas",
+        "DistM": "Metros",
+        "DistKm": "Quilômetros",
+        "DistPc": "Parsecs",
+        "DistGU": "Unidades de grade"
+      },
+      "Movimento": {
+        "DistFt": "Pés",
+        "DistMi": "Milhas",
+        "DistM": "Metros",
+        "DistKm": "Quilômetros",
+        "DistPc": "Parsecs",
+        "DistGU": "Unidades de grade"
       }
     },
     "Alvo": {
@@ -929,18 +954,18 @@
       "EditPosition": "Editarar Posição",
       "ConfirmDeletePosition": "São you sure you want para delete this posição?",
       "Designation": "Designation",
-      "Displacement": "Displacement",
+      "Displacement": "Deslocamento",
       "Drives": "Drives",
       "FINANCENOTES": "FINANCE NOTES",
       "SHIPVALUE": "NAVE VALOR",
       "Fuel": "Combustível",
-      "RefinedFuel": "Refined Combustível",
-      "UnrefinedFuel": "Unrefined Combustível",
+      "RefinedFuel": "Combustível Refinado",
+      "UnrefinedFuel": "Combustível não refinado",
       "Gs": "G",
       "InvalidDocumentForShipPosition": "This document tipo é inválido para Nave posições. Only perícias pode ser dropped here.",
       "IsMassProduced": "Nave é Mass Produced",
       "JDrive": "J-Drive",
-      "Jump": "Jump",
+      "Jump": "Salto",
       "MacroSkill": "Macro/Perícia",
       "Componente": "Componente para usar",
       "MakesChatRollAction": "Uses o _ACTION_NAME__POSITION_NAME_ action de o _POSIÇÃO_NAME_ posição.",
@@ -966,12 +991,12 @@
       "pc": "pc",
       "PositionName": "Posição Nome",
       "Power": "Energia",
-      "PowerManagement": "Energia Management",
-      "PowerWeightManagement": "Energia & Peso Management",
+      "PowerManagement": "Gestão de Energia",
+      "PowerWeightManagement": "Gestão de Energia e Peso",
       "PP": "PP",
       "RemoveViajante": "Remove Viajante de Nave",
       "Sensors": "Sensores",
-      "ShipHull": "Nave Casco",
+      "ShipHull": "Casco da Nave",
       "SHIPNOTES": "NAVE NOTES",
       "Armazenamento": "Armazenamento",
       "Systems": "Sistemas",
@@ -1012,7 +1037,8 @@
       "MacroFerramentatip": "Macro Nome",
       "chatFerramentatip": "Ahoy!",
       "ExecuteMacro": "Executar Macro",
-      "Nenhum": "Nenhum"
+      "Nenhum": "Nenhum",
+      "Energy": "Energia"
     },
     "Vehicle": {
       "SystemStatus": "Status do Sistema",
@@ -1695,7 +1721,7 @@
       },
       "jDriveLabel": {
         "hint": "O exibir label para o pular propulsor em o energia management configurações",
-        "name": "Jump Propulsor Label"
+        "name": "Salto Propulsor Label"
       },
       "showCost": {
         "hint": "List o Nave componente's custo em MCr para o single-linha componente list em o Nave ficha.",
