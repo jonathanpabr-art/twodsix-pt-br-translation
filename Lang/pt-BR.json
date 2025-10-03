@@ -1,0 +1,1513 @@
+{
+  "Advantage": "Vantagem",
+  "Disadvantage": "Desvantagem",
+  "Twodsix": {
+    "Actor": {
+      "About": "Sobre",
+      "Action": "Ação",
+      "Actions": "Ações",
+      "Characteristics": "Características",
+      "Contamination": "Contaminação",
+      "Contacts": "Contatos",
+      "Content": "Conteúdo",
+      "Damage": "Dano",
+      "Equipment": "Equipamento",
+      "Fatigue": "Fadiga",
+      "Funds": "Fundos",
+      "HeroPoints": "Pontos de Herói",
+      "Hits": "Acertos",
+      "Homeworld": "Mundo Natal",
+      "Information": "Informação",
+      "Inventory": "Inventário",
+      "Junk": "Lixo",
+      "Lifeblood": "Vitalidade",
+      "MaxContamination": "Contaminação Máxima",
+      "MaxFatigue": "Fadiga Máxima",
+      "MaxLifeblood": "Vitalidade Máxima",
+      "MaxStamina": "Estamina Máxima",
+      "MaxWounds": "Feridas Máximas",
+      "Misc": "Diversos",
+      "Movement": "Movimento",
+      "Notes": "Notas",
+      "Skills": "Perícias",
+      "Species": "Espécie",
+      "Stamina": "Estamina",
+      "Stress": "Estresse",
+      "TL": "NT",
+      "Traits": "Características",
+      "Wounds": "Ferimentos",
+      "Wound": "Ferimento",
+      "WoundLevel": "Nível de Ferimento",
+      "Level": "Nível",
+      "Encumbrance": "Massa Carregada",
+      "MaxEncumbrance": "Massa Carregada Máxima",
+      "MovementRate": "Taxa de Movimento",
+      "ArmorClass": "Classe de Armadura",
+      "CombatStats": "Estatísticas de Combate",
+      "AddArmor": "Adicionar Armadura",
+      "AddWeapon": "Adicionar Arma",
+      "AddItem": "Adicionar Item",
+      "AddSkill": "Adicionar Perícia",
+      "AddAugment": "Adicionar Aumento",
+      "AddTrait": "Adicionar Característica",
+      "AddResource": "Adicionar Recurso",
+      "AddHealing": "Adicionar Cura",
+      "DamageTo": "Dano a:",
+      "Unspecified": "Não Especificado",
+      "Add": "Adicionar",
+      "Apply": "Aplicar",
+      "SkillModifier": "Modificador de Perícia",
+      "RadiationDamage": "Dano de Radiação",
+      "MeleeDM": "MD de Combate Corpo a Corpo",
+      "DamageBonus": "Bônus de Dano",
+      "Armor": "Armadura",
+      "Worn": "Vestida",
+      "Name": "Nome",
+      "Type": "Tipo",
+      "DR": "RD",
+      "Location": "Localização",
+      "Weight": "Peso",
+      "Description": "Descrição",
+      "TLDescription": "Nível Tecnológico (NT)",
+      "AddEquipment": "Adicionar Equipamento",
+      "AddCargo": "Adicionar Carga",
+      "AddVehicle": "Adicionar Veículo/Nave",
+      "AddShip": "Adicionar Nave",
+      "DamageTaken": "Dano Recebido",
+      "IsWearing": "Vestindo?",
+      "Equip": "Equipar",
+      "Unequip": "Desequipar",
+      "Skill": "Perícia",
+      "Weapon": "Arma",
+      "EquipmentItem": "Item de Equipamento",
+      "ArmorItem": "Item de Armadura",
+      "AugmentItem": "Item de Aumento",
+      "TraitItem": "Item de Característica",
+      "AddPsionic": "Adicionar Poder Psiônico",
+      "AddSpell": "Adicionar Feitiço",
+      "Psionics": "Psiônicos",
+      "Spells": "Feitiços"
+    },
+    "Armor": {
+      "Type": {
+        "cloth": "Pano",
+        "jack": "Acolchoada",
+        "mesh": "Malha",
+        "ablative": "Ablativa",
+        "reflex": "Reflexiva",
+        "power": "Potência",
+        "vaccSuit": "Traje Vácuo",
+        "battledress": "Farda de Batalha",
+        "other": "Outra"
+      },
+      "DR": "RD",
+      "Description": "Descrição",
+      "ArmorName": "Nome da Armadura",
+      "Location": "Localização",
+      "Weight": "Peso",
+      "TL": "NT",
+      "Price": "Preço",
+      "IsWearing": "Vestindo?",
+      "IsIllegal": "É Ilegal?",
+      "ArmorPiercingModifier": "Modificador de Perfuração de Armadura",
+      "Features": "Características / Traços"
+    },
+    "Augment": {
+      "Description": "Descrição",
+      "AugmentName": "Nome do Aumento",
+      "Location": "Localização",
+      "TL": "NT",
+      "Price": "Preço",
+      "IsIllegal": "É Ilegal?",
+      "Features": "Características / Traços",
+      "Type": "Tipo",
+      "Types": {
+        "cybernetic": "Cibernético",
+        "bionic": "Biônico",
+        "genetic": "Genético",
+        "psionic": "Psiônico",
+        "other": "Outro"
+      }
+    },
+    "Component": {
+      "Ammunition": "Munição",
+      "componentName": "Componente",
+      "accomodations": "acomodações",
+      "armament": "armamento",
+      "armor": "blindagem",
+      "breach": "brecha",
+      "bridge": "ponte",
+      "cargo": "carga",
+      "computer": "computador",
+      "crew": "tripulação",
+      "crew-critical": "crítico para tripulação",
+      "dock": "doca",
+      "drive": "propulsor",
+      "drone": "drone",
+      "electronics": "eletrônicos",
+      "fuel": "combustível",
+      "hangar": "hangar",
+      "hull": "casco",
+      "ftl-drive": "propulsor-ftl",
+      "j-drive": "propulsor-j",
+      "life-support": "suporte de vida",
+      "m-drive": "propulsor-m",
+      "mount": "suporte",
+      "power": "energia",
+      "screen": "tela",
+      "sensor": "sensor",
+      "shield": "escudo",
+      "software": "software",
+      "storage": "armazenamento",
+      "vehicle": "veículo e nave",
+      "other": "outro",
+      "otherExternal": "outro - externo",
+      "otherInternal": "outro - interno",
+      "tractor-beam": "raio trator",
+      "operational": "operacional",
+      "damaged": "danificado",
+      "destroyed": "destruído",
+      "off": "desligado",
+      "powerDraw": "Consumo de Energia",
+      "powerGenerated": "Energia Gerada",
+      "Power": "Energia",
+      "status": "Status",
+      "rating": "Classificação",
+      "Range": "Alcance",
+      "totalQuantity": "Quantidade Total",
+      "availableQuantity": "Quantidade Disponível",
+      "damage": "Dano",
+      "RadiationDamage": "Dano de Radiação",
+      "hits": "Acertos",
+      "SustainedHits": "Acertos Sofridos",
+      "weightIsPct": "Peso é Porcentagem?",
+      "purchasePrice": "Preço de Compra",
+      "isIllegal": "Ilegal?",
+      "unitWeight": "Peso Unitário",
+      "pctDisplacement": "% de Peso de Deslocamento",
+      "CargoItem": "Item de Carga",
+      "CargoLocation": "Localização da Carga",
+      "Price": "Preço",
+      "Value": "Valor",
+      "GeneratesPower": "Gera Energia?",
+      "IsRefined": "Refinado?",
+      "Features": "Características / Traços",
+      "PricingBasis": "Precificação de",
+      "perUnit": "MCr por unidade",
+      "perCompTon": "MCr por tonelada de componente",
+      "perHullTon": "MCr por tonelada de casco",
+      "per100HullTon": "MCr por 100 toneladas de casco",
+      "pctHull": "Porcentagem do valor base do casco",
+      "pctHullPerUnit": "Porcentagem do valor base do casco por unidade",
+      "isBaseHull": "É Casco Base?",
+      "RollModifier": "Modificador de Rolagem",
+      "DM": "MD",
+      "Hardened": "Blindado?",
+      "hardened": "Blindado",
+      "Hd": "Bd",
+      "isPopup": "É Pop-up?",
+      "isExtended": "Pop-up Estendido?",
+      "extended": "estendido",
+      "retracted": "retraído",
+      "Displacement": "Deslocamento",
+      "Description": "Descrição",
+      "ComponentType": "Tipo de Componente",
+      "powerPerUnit": "por unidade",
+      "powerPerCompTon": "por tonelada de componente",
+      "powerPerHullTon": "por tonelada de casco",
+      "installedCost": "Custo Instalado (MCr)",
+      "techLevel": "Nível Tecnológico",
+      "diceModifier": "Modificador de Dados",
+      "displacementWeight": "Peso de Deslocamento (t-d)",
+      "PowerUsed": "Energia Consumida ou Gerada (+)",
+      "Quantity": "Quantidade",
+      "AttackDamage": "Dano de Ataque",
+      "numberHits": "Número de Acertos",
+      "opStatus": "Status Operacional",
+      "FireArc": "Arco de Fogo",
+      "Degrees": "Graus (0 a 360)",
+      "WeaponType": "Tipo de Arma",
+      "Light": "Leve",
+      "Intermediate": "Intermediário",
+      "Heavy": "Pesado",
+      "Main": "Canhão Principal",
+      "Special": "Especial",
+      "PulseLaser": "Laser de Pulso",
+      "BeamLaser": "Laser de Feixe",
+      "ParticleBeam": "Feixe de Partículas",
+      "ParticleGun": "Arma de Partículas",
+      "ParticleCluster": "Cluster de Partículas",
+      "FusionGun": "Arma de Fusão",
+      "FusionBeam": "Feixe de Fusão",
+      "MesonGun": "Canhão Mésons",
+      "GraviticDisruptor": "Disruptor Gravítico",
+      "GraviticLance": "Lança Gravítica",
+      "Missiles": "Mísseis",
+      "PlasmaBeam": "Feixe de Plasma",
+      "NuclearMissiles": "Mísseis Nucleares",
+      "Torpedoes": "Torpedos",
+      "Sandcaster": "Lançador de Areia",
+      "Other": "Outro"
+    },
+    "Equipment": {
+      "AssignSkill": "Atribuir Perícia",
+      "AssociatedSkillName": "Nome(s) da(s) Perícia(s) Associada(s)",
+      "Description": "Descrição",
+      "ItemName": "Nome do Item",
+      "Location": "Localização",
+      "Price": "Preço",
+      "Quantity": "Quantidade",
+      "ShortDescription": "Descrição Breve",
+      "SkillModifier": "Modificador de Rolagem/Dados",
+      "TL": "NT",
+      "Weight": "Peso",
+      "isAttachment": "Acessório?",
+      "NewAttachment": "Novo Acessório",
+      "BonusDamage": "Dano Bônus",
+      "PriorType": "Tipo de Item Anterior"
+    },
+    "Items": {
+      "AssignArmor": "Atribuir Armadura",
+      "AssignAugment": "Atribuir Aumento",
+      "AssignEquipment": "Atribuir Equipamento",
+      "AssignJunk": "Atribuir Lixo",
+      "AssignTool": "Atribuir Ferramenta",
+      "AssignWeapon": "Atribuir Arma",
+      "AssignConsumable": "Atribuir Consumível",
+      "AssignComputer": "Atribuir Computador",
+      "Inventory": "Inventário",
+      "ItemType": "Tipo",
+      "MoveStorage": "Mover Armazenamento",
+      "New": "Novo",
+      "Storage": "Armazenamento",
+      "Junk": "Lixo",
+      "AssignPsiAbility": "Atribuir Habilidade Psiônica",
+      "AssignSpell": "Atribuir Feitiço"
+    },
+    "Skills": {
+      "DEX": "DES",
+      "EDU": "EDU",
+      "END": "RES",
+      "INT": "INT",
+      "Level": "Nível",
+      "Modifier": "Modificador",
+      "NONE": "---",
+      "PSI": "PSI",
+      "SOC": "STA",
+      "STR": "FOR",
+      "SkillName": "Nome da Perícia",
+      "SimplifiedSkillName": "Nome de Perícia Simplificado",
+      "SimplifiedSkillNameDescription": "Usado em fórmulas de rolagem como @skills._SKILL_NAME_. @skills._SKILL_NAME__ assume zero se a perícia estiver faltando ou abaixo de zero.",
+      "LFB": "VIT",
+      "STA": "EST",
+      "HIT": "ACERTO",
+      "ALT1": "ALT1",
+      "ALT2": "ALT2",
+      "ALT3": "ALT3",
+      "TrainingNotes": "Notas de Treinamento",
+      "NumberOfSkills": "Número de Perícias",
+      "SkillRanks": "Níveis de Perícia",
+      "GroupLabel": "Etiqueta de Grupo",
+      "Melee Combat": "Combate Corpo a Corpo"
+    },
+    "Traits": {
+      "Prerequisite": "Pré-requisito",
+      "TraitName": "Nome da Característica",
+      "CreateEffect": "Criar Efeito",
+      "DeleteEffect": "Excluir Efeito",
+      "EditEffect": "Editar Efeitos",
+      "CreateTrait": "Criar Característica",
+      "DeleteTrait": "Excluir Característica",
+      "ShortDescAndEffects": "Descrição breve e lista de efeitos"
+    },
+    "Tool": {
+      "Bonus": "Bônus"
+    },
+    "Consumable": {
+      "Types": {
+        "air": "Ar",
+        "drugs": "Drogas",
+        "food": "Comida",
+        "fuel": "Combustível",
+        "magazine": "Carregador",
+        "power_cell": "Célula de Energia",
+        "software": "Software",
+        "processor": "Processador",
+        "suite": "Suíte Eletrônica",
+        "other": "Outro"
+      },
+      "Size": "Tamanho",
+      "Subtype": "Tipo",
+      "Count": "Contagem",
+      "Bandwidth": "Largura de Banda",
+      "ArmorPiercing": "Valor de Perfuração de Armadura",
+      "AmmoRangeModifier": "Modificador de Alcance (% de mudança no alcance base)",
+      "DropConsumablesHere": "Você pode soltar consumíveis aqui.",
+      "DropAttachmentsHere": "Você pode soltar acessórios aqui.",
+      "RemoveConsumable": "Remover consumível",
+      "RemoveConsumableFrom": "Remover consumível _CONSUMABLE_NAME_ de _ITEM_NAME_?",
+      "SelectConsumable": "Selecionar Consumível",
+      "ActiveConsumable": "Consumível Ativo",
+      "SoftwareActive": "Software Ativo?",
+      "SoftwareOn": "Software Ativo",
+      "SoftwareOff": "Software Inativo"
+    },
+    "Weapon": {
+      "Ammo": "Munição",
+      "Damage": "Dano",
+      "Range": "Alcance",
+      "lawLevel": "Nível Legal",
+      "rangeBand": "Faixa de Alcance",
+      "weaponType": "Tipo de Arma",
+      "damageType": "Tipo de Dano",
+      "rateOfFire": "Cadência de Tiro/Auto X",
+      "doubleTap": "Tiro Duplo",
+      "recoil": "Recuo",
+      "UseAsAmmunitionForAttack": "Usar como consumível para rolagens",
+      "MagazineCost": "Custo de Carregador/Célula de Energia",
+      "ArmorPiercing": "Valor de Perfuração de Armadura",
+      "ParryAV": "VA Aparar",
+      "ShieldAV": "VA Escudo",
+      "isShield": "Age como um escudo",
+      "Features": "Características / Traços",
+      "Unarmed": "Desarmado",
+      "UnarmedDescription": "Ataque desarmado",
+      "HandlingModifiers": "Modificadores de Manuseio",
+      "Magazine": "Carregador",
+      "Modifiers": "Modificadores",
+      "Attack": "Ataque",
+      "Consumables": "Consumíveis",
+      "DefaultMagazine": "Tamanho Padrão do Carregador",
+      "HandlingExample": "Ex: DES 6/-3 10/+4",
+      "MeleeRangeModifier": "MD de Alcance Corpo a Corpo",
+      "CustomModifier": {
+        "range": "Modificador de Alcance Personalizado",
+        "armor": "Modificador de Armadura Personalizado"
+      }
+    },
+    "Spells": {
+      "CircleSchool": "Círculo/Escola de Magia",
+      "Duration": "Duração",
+      "SpellName": "Nome do Feitiço",
+      "Level": "Nível",
+      "sorcerySkill": "Feitiçaria"
+    },
+    "Computer": {
+      "ProcessingPower": "Poder de Processamento"
+    },
+    "Psionics": {
+      "PsiCost": "Custo de Pontos Psiônicos",
+      "UsePoints": "Usar Pontos Psiônicos",
+      "Used": "Usado",
+      "Pts": "Pts.",
+      "Level": "Nível"
+    }
+  },
+  "Target": {
+    "AreaEffect": "Área de Efeito",
+    "Target": "Alvo",
+    "None": "nenhum",
+    "Radius": "raio",
+    "Sphere": "esfera",
+    "Cylinder": "cilindro",
+    "Cone": "cone",
+    "Square": "quadrado",
+    "Cube": "cubo",
+    "Line": "linha",
+    "Wall": "parede",
+    "Width": "Largura",
+    "Units": "Unidades",
+    "TypeArea": "Tipo de Área"
+  },
+  "Ship": {
+    "Actions": "Ações",
+    "ActionType": "Tipo de Ação",
+    "ActionRollFormula": "Fórmula de Rolagem de Ação",
+    "Unknown": "desconhecido",
+    "ActorLacksSkill": "_ACTOR_NAME_ não tem a perícia _SKILL_",
+    "ActorMustBeSelectedForAction": "Nenhum ator selecionado, um deve ser selecionado para realizar a ação",
+    "AddShipPosition": "Adicionar Posição na Nave",
+    "AddActorToPosition": "Adicionar ator à posição.",
+    "ArmorCD": {
+      "Unarmored": "Sem Armadura",
+      "Light": "Leve",
+      "Heavy": "Pesada",
+      "Massive": "Massiva"
+    },
+    "SelectActor": "Selecionar Ator",
+    "Avail": "Disp.",
+    "Available": "Disponível",
+    "AvailableCargoWeight": "Peso de Carga Disponível",
+    "CantDropActorIfPositionIsNotOnShip": "Você não pode soltar um Viajante em uma posição de nave que não está em uma nave",
+    "CannotParseArgument": "Não é Possível Analisar a String de Ação de Posição",
+    "Cargo": "Carga",
+    "CargoWeight": "Peso Total da Carga",
+    "CARGONOTES": "NOTAS DE CARGA",
+    "COMPONENTS": "COMPONENTES",
+    "COMMONFUNDS": "FUNDOS COMUNS",
+    "CombatPosition": "Posição de Combate",
+    "CreateAction": "Criar Ação",
+    "Crew": {
+      "ADMIN": "ADMINISTRAÇÃO",
+      "ASTROGATOR": "ASTRONAVEGADOR",
+      "BROKER": "CORRETOR",
+      "CAPTAIN": "CAPITÃO",
+      "ENGINEER": "ENGENHEIRO(S)",
+      "GUNNER": "ARTILHEIRO(S)",
+      "MAINTENANCE": "MANUTENÇÃO",
+      "MARINE": "FUZILEIRO(S)",
+      "MEDIC": "MÉDICO",
+      "OTHER": "OUTRO",
+      "PILOT": "PILOTO",
+      "STEWARD": "COMISSÁRIO"
+    },
+    "Damage": "Dano",
+    "DamageStyle": {
+      "Component": "Componentes danificados (ex: CE)",
+      "HullWithCrit": "Dano no Casco com Críticos (ex: MgT2e)",
+      "HullOnly": "Somente dano no Casco",
+      "SurfaceOrInternal": "Superfície ou Interno (ex: Cepheus Deluxe)",
+      "ClassicTraveller": "Classic Traveller (CT)",
+      "AlphaCephei": "Alpha Cephei (AC)",
+      "CepheusUniversal": "Cepheus Universal (CU)"
+    },
+    "DamageMessages": {
+      "NoRad": "Sorte - nenhuma radiação",
+      "SingleCrew": "Um membro aleatório da tripulação sofre {dose} rads",
+      "AllCrew": "Toda a tripulação sofre {dose} rads",
+      "ShipDestroyed": "NAVE FOI DESTRUÍDA"
+    },
+    "Deckplan": "Planta de Convés",
+    "Defense": "Defesa",
+    "DeleteAction": "Excluir Ação",
+    "DeletePosition": "Excluir Posição",
+    "CopyPosition": "Copiar Posição da Nave para a Barra Lateral",
+    "EditPosition": "Editar Posição",
+    "ConfirmDeletePosition": "Tem certeza de que deseja excluir esta posição?",
+    "Designation": "Designação",
+    "Displacement": "Deslocamento",
+    "Drives": "Propulsores",
+    "FINANCENOTES": "NOTAS FINANCEIRAS",
+    "SHIPVALUE": "VALOR DA NAVE",
+    "Fuel": "Combustível",
+    "RefinedFuel": "Combustível Refinado",
+    "UnrefinedFuel": "Combustível Não Refinado",
+    "Gs": "G",
+    "InvalidDocumentForShipPosition": "Este tipo de documento é inválido para posições de nave. Somente perícias podem ser soltas aqui.",
+    "IsMassProduced": "Nave é Produzida em Massa",
+    "JDrive": "Propulsor-J",
+    "Jump": "Salto",
+    "MacroSkill": "Macro/Perícia",
+      "Component": "Componente a usar",
+      "MakesChatRollAction": "Usa a ação _ACTION_NAME_ da posição _POSITION_NAME_.",
+      "ActionHits": "Atinge _WHILE_USING_ com um efeito de _EFFECT_VALUE_",
+      "ActionHitsAndDamage": "Atinge _WHILE_USING_ com um efeito de _EFFECT_VALUE_ causando _DAMAGE_TOTAL_ pontos de dano padrão",
+      "ActionMisses": "Erra _WHILE_USING_ com um efeito de _EFFECT_VALUE_",
+      "RadiationDamageOf": "e dano de radiação de",
+      "WhileUsing": "enquanto usa ",
+      "MaintPM": "Manutenção P/M",
+      "MANIFEST": "MANIFESTO",
+      "MAX": "MÁX",
+      "MDrive": "Propulsor-M",
+      "Morale": "Moral",
+      "Name": "Nome",
+      "NewAction": "Nova Ação",
+      "NoActorsForAction": "Nenhum ator disponível para a ação",
+      "NotShipWeapon": "Não é uma arma de nave - dano não calculado.",
+      "NoDamage": "Nenhum dano regular à nave para avaliar",
+      "Operations": "Operações",
+      "Order": "Ordem",
+      "Overdrive": "Sobrecarga",
+      "Parsecs": "Parsecs",
+      "pc": "pc",
+      "PositionName": "Nome da Posição",
+      "Power": "Energia",
+      "PowerManagement": "Gerenciamento de Energia",
+      "PowerWeightManagement": "Gerenciamento de Energia e Peso",
+      "PP": "PE",
+      "RemoveTraveller": "Remover Viajante da nave",
+      "Sensors": "Sensores",
+      "ShipHull": "Casco da Nave",
+      "SHIPNOTES": "NOTAS DA NAVE",
+      "Storage": "Armazenamento",
+      "Systems": "Sistemas",
+      "Tabs": {
+        "Cargo": "Carga",
+        "Components": "Componentes",
+        "Crew": "Tripulação",
+        "Finance": "Finanças",
+        "Locker": "Armário",
+        "Notes": "Notas",
+        "ShipPositions": "Posições"
+      },
+      "Thrust": "Impulso",
+      "tons": "toneladas",
+      "dtons": "t-d",
+      "Travellers": "Viajantes",
+      "USED": "USADO",
+      "Vehicles": "Veículos",
+      "Weapons": "Armas",
+      "MCr": "MCr",
+      "ShipValue": "Valor da Nave",
+      "MortgagePerMonth": "Pagamento Est. de Hipoteca",
+      "MaintenancePerMonth": "Custo de Manutenção",
+      "CrPerMonth": "Cr/mês",
+      "Chat": "Chat",
+      "UseAComponent": "Disparar arma",
+      "executeMacro": "Macro",
+      "SkillRoll": "Perícia",
+      "chatPlaceholder": "Mensagem do Chat",
+      "skillPlaceholder": "Perícia/CAR 8+",
+      "firePlaceholder": "Perícia/CAR 8+",
+      "macroPlaceholder": "Nome da macro",
+      "skillTooltip": "Opções possíveis:\nPerícia\nPerícia|Perícia Alternativa 1|...\nPerícias/CAR\nPerícias/ 8+\nPerícias/CAR 8+\nPerícias/CAR|CAR2",
+      "fireTooltip": "Opções possíveis:\nPerícia\nPerícia|Perícia Alternativa 1|...\nPerícias/CAR\nPerícias/ 8+\nPerícias/CAR|CAR2 8+",
+      "MacroTooltip": "Nome da Macro",
+      "chatTooltip": "Olá!",
+      "ExecuteMacro": "Executar Macro",
+      "None": "Nenhum"
+    },
+    "Vehicle": {
+      "SystemStatus": "Status do Sistema",
+      "Cargo": "Carga",
+      "CargoNotes": "Notas",
+      "CargoCapacity": "Capacidade",
+      "Speed": "Velocidade",
+      "Range": "Alcance",
+      "Spaces": "Espaços",
+      "Agility": "Agilidade",
+      "systems": {
+        "cargo": "Carga",
+        "cockpit": "Cockpit",
+        "computers": "Computadores",
+        "electronics": "Eletrônicos",
+        "limbs": "Membros / Apêndices",
+        "propulsion": "Propulsão / Locomoção",
+        "powerPlant": "Usina de Força",
+        "sensors": "Sensores",
+        "weapons": "Armas"
+      },
+      "crew": {
+        "operators": "Operadores",
+        "passengers": "Passageiros"
+      },
+      "Movement": "Movimento",
+      "Crew": "Tripulação",
+      "Weight": "Peso",
+      "Armor": "Armadura",
+      "Front": "Frente",
+      "Sides": "Lados",
+      "Rear": "Traseira",
+      "Hull": "Casco",
+      "Structure": "Estrutura",
+      "Protection": "Proteção",
+      "skillToOperate": "Perícia para operar",
+      "Weapons": "Armas",
+      "Components": "Componentes",
+      "OpenVehicle": "Abrir Veículo",
+      "techLevel": "NT",
+      "Cost": "Custo",
+      "Traits": "Características",
+      "ArmorHull": "Armadura e Casco",
+      "Regular": "Regular",
+      "Critical": "Crítico",
+      "Thresholds": "Limiares",
+      "ProtectionType": {
+        "ArmorOnly": "Somente Armadura",
+        "Threshold": "Limiar",
+        "ArmorHullStruc": "Armadura, Casco e Estrutura",
+        "DetailedArmor": "Armadura e Casco Detalhados"
+      },
+      "ShippingSize": "Tamanho de Envio",
+      "Tabs": {
+        "Stats": "Estatísticas",
+        "Cargo": "Carga",
+        "Description": "Descrição",
+        "Components": "Componentes",
+        "Storage": "Armazenamento"
+      }
+    },
+    "SpaceObject": {
+      "Notes": "Notas",
+      "Damage": "Dano",
+      "Information": "Informação",
+      "Features": "Características",
+      "Thrust": "Impulso",
+      "rounds": "rodada(s)",
+      "RoundsActive": "Rodadas Ativas"
+    },
+    "Resource": {
+      "Value": "Valor",
+      "Min": "Mín",
+      "Max": "Máx",
+      "Label": "Etiqueta"
+    },
+    "Migration": {
+      "Completed": "Migração do Sistema Twodsix para a versão {version} concluída!",
+      "DoNotClose": "Migrando Twodsix para {version}. Não feche seu jogo nem desligue seu servidor.",
+      "MigrationError0.6.25": "Erro de migração: Não foi possível analisar o preço para ${name}, era ${price} mas agora é 0."
+    },
+    "No": "Não",
+    "Rolls": {
+      "AdjustedDamage": "Dano ajustado por efeito",
+      "Cancel": "Cancelar",
+      "DamageUsing": "Dano usando",
+      "Effect": "Efeito",
+      "ToggleDetails": "Alternar Detalhes",
+      "Roll": "Rolar",
+      "RollChain": "Rolagem em Cadeia / Assistida",
+      "RollOpposed": "Rolagem Oposta",
+      "Rolling": "Rolando",
+      "With": "com",
+      "resultShows": "resultado mostra",
+      "sum": "soma",
+      "using": "usando {characteristic}",
+      "Wounds": "Ferimentos",
+      "AttackDM": "MD de Ataque",
+      "Damage": "Dano",
+      "BonusDamage": "Dano Bônus",
+      "BurstDamage": "Dano de Rajada",
+      "Burst": "Rajada",
+      "Auto": "Automático",
+      "FullAuto": "Automático Total",
+      "DoubleTap": "Tiro Duplo",
+      "Single": "Único",
+      "Timeframe": "Tempo",
+      "RollInitiative": "Rolar Iniciativa",
+      "characteristic": "característica",
+      "ROF": "Cadência de Tiro",
+      "RollDamage": "Rolar Dano",
+      "DodgeParry": "Esquivar/Aparar",
+      "Attachments": "Acessórios/Consumíveis",
+      "WeaponsHandling": "Manuseio de Armas",
+      "SelectSkill": "Selecionar Perícia",
+      "SkillName": "Nome da Perícia",
+      "MakesOpposedRoll": "Faz uma rolagem oposta / contestada.",
+      "MakesChainRoll": "Faz uma rolagem em cadeia / assistida.",
+      "MakesParryRoll": "Faz um teste de perícia de combate corpo a corpo para aparar ataque com",
+      "MakesUncRoll": "Rola para permanecer consciente."
+    },
+    "Settings": {
+      "absoluteBonusValueForEachTimeIncrement": {
+        "hint": "Deixe vazio para usar o padrão (+/-1). Não está sendo usado atualmente.",
+        "name": "Qual bônus/penalidade dar para cada mudança de incremento de tempo em uma tarefa."
+      },
+      "absoluteCriticalEffectValue": {
+        "hint": "O padrão é 99, o que significa que o efeito é ignorado.",
+        "name": "Qual efeito é necessário para que um lançamento seja considerado um sucesso/falha crítica (ou seja, ser colorido de verde/vermelho)."
+      },
+      "shortSTR": {
+        "hint": "Nome abreviado para a característica Força. Deve ter quatro caracteres ou menos.",
+        "name": "Nome abreviado para a característica Força"
+      },
+      "shortDEX": {
+        "hint": "Nome abreviado para a característica Destreza. Deve ter quatro caracteres ou menos.",
+        "name": "Nome abreviado para a característica Destreza"
+      },
+      "shortEND": {
+        "hint": "Nome abreviado para a característica Resistência. Deve ter quatro caracteres ou menos.",
+        "name": "Nome abreviado para a característica Resistência"
+      },
+      "shortINT": {
+        "hint": "Nome abreviado para a característica Intelecto. Deve ter quatro caracteres ou menos.",
+        "name": "Nome abreviado para a característica Intelecto"
+      },
+      "shortSOC": {
+        "hint": "Nome abreviado para a característica Status Social. Deve ter quatro caracteres ou menos.",
+        "name": "Nome abreviado para a característica Status Social"
+      },
+      "shortEDU": {
+        "hint": "Nome abreviado para a característica Educação. Deve ter quatro caracteres ou menos.",
+        "name": "Nome abreviado para a característica Educação"
+      },
+      "shortPSI": {
+        "hint": "Nome abreviado para a característica Força Psiônica. Deve ter quatro caracteres ou menos.",
+        "name": "Nome abreviado para a característica Força Psiônica"
+      },
+      "alternativeShort1": {
+        "hint": "Nome abreviado para a primeira característica alternativa. Deve ter quatro caracteres ou menos.",
+        "name": "Nome abreviado para a característica alternativa 1"
+      },
+      "alternativeShort2": {
+        "hint": "Nome abreviado para a segunda característica alternativa. Deve ter quatro caracteres ou menos.",
+        "name": "Nome abreviado para a característica alternativa 2"
+      },
+      "alternativeShort3": {
+        "hint": "Nome abreviado para a terceira característica alternativa. Deve ter quatro caracteres ou menos.",
+        "name": "Nome abreviado para a característica alternativa 3"
+      },
+      "autofireRulesUsed": {
+        "hint": "Selecione qual variante de regras de fogo automático/rajada deve ser usada.",
+        "name": "Selecione qual variante de regras de fogo automático/rajada deve ser usada."
+      },
+      "automateDamageRollOnHit": {
+        "hint": "Quando efeito > 0 e o item causa dano: marcado = Rolar dano, modificado pelo efeito da rolagem de perícia. desmarcado = Não rolar dano (o botão para rolar dano deve aparecer no card de chat).",
+        "name": "Rolar dano automaticamente para rolagens de perícia que acertam."
+      },
+      "criticalNaturalAffectsEffect": {
+        "hint": "marcado=Independentemente do sucesso, considere um 2 natural ter um efeito de -1 e um 12 ter um efeito de 0, desmarcado=Usar regras normais",
+        "name": "Se um 2 ou 12 natural deve ter tratamento especial em relação ao sucesso/falha."
+      },
+      "defaultTokenSettings": {
+        "hint": "Definir automaticamente as configurações de protótipo de token aconselhadas para Atores recém-criados.",
+        "name": "Configurações Padrão de Protótipo de Token"
+      },
+      "difficultiesAsTargetNumber": {
+        "hint": "marcado=Usar número alvo em vez de modificador para dificuldades, desmarcado=Usar modificadores",
+        "name": "Usar números alvo em vez de modificadores para dificuldades."
+      },
+      "difficultyListUsed": {
+        "hint": "Selecione qual variante de lista de dificuldade deve ser usada.",
+        "name": "Selecione qual variante de lista de dificuldade deve ser usada."
+      },
+      "effectOrTotal": {
+        "hint": "marcado=Mostrar efeito (ou seja, rolagem+modificadores-número alvo, geralmente 6 ou 8), desmarcado=Mostrar total (ou seja, rolagem+modificadores)",
+        "name": "Mostrar efeito ou valor total da rolagem para testes de perícia e característica."
+      },
+      "ExperimentalFeatures": {
+        "hint": "marcado=Use corajosamente recursos experimentais feios e cheios de bugs que talvez não deletem seu mundo de jogo, desmarcado=Esconda-os como qualquer pessoa sã faria",
+        "name": "Mostrar recursos feios, com bugs e inacabados. Ou seja, meio que todos os outros recursos que não estão ocultos por este sinalizador. :)"
+      },
+      "hideUntrainedSkills": {
+        "continue": "Você deseja continuar?",
+        "hint": "marcado=Mostrar pseudo-perícia 'Não Treinada' em vez de todas as perícias não treinadas. desmarcado=Mostrar todas as perícias não treinadas",
+        "name": "Ocultar todas as perícias não treinadas, mostrando uma única pseudo-perícia chamada 'Não Treinada'. Isso também faz com que novas perícias sejam adicionadas em 0 em vez do valor de perícia não treinada.",
+        "warning": "Aviso!",
+        "warningReset": "Após salvar as configurações do sistema, todas as perícias que usam a pseudo-perícia 'Não Treinada' <br> serão permanentemente redefinidas para não usar nenhuma perícia. Esta ação não pode ser desfeita.",
+        "warningUpdateWeapon": "Após salvar as configurações do sistema, todas as armas dos atores que não têm uma perícia serão atualizadas para usar a pseudo-perícia Não Treinada. Esta ação não pode ser desfeita."
+      },
+      "initiativeFormula": {
+        "hint": "Ex: \"2d6 + @characteristics.dexterity.mod\"",
+        "name": "Fórmula de Iniciativa"
+      },
+      "armorDamageFormula": {
+        "hint": "Use matemática de rolagem VTT sem termos de dados '@damage'/'@effectiveArmor' são substituídos por dano/armadura eficaz. Comportamento padrão: \"@damage-@effectiveArmor\"",
+        "name": "Fórmula de redução de dano de armadura"
+      },
+      "invertSkillRollShiftClick": {
+        "hint": "Clicar em uma rolagem de perícia ou arrastar dano para um personagem normalmente mostra uma caixa de diálogo, Shift+clicar aplica valores padrão (rolagem de perícia Média ou distribuição automática de dano). Marcar esta caixa inverte este comportamento.",
+        "name": "Inverter comportamento para Shift+clicar para rolagens de perícia e Shift+arrastar para receber dano"
+      },
+      "lifebloodInsteadOfCharacteristics": {
+        "hint": "Mostrar RES e 'Vitalidade' (usa FOR por baixo dos panos) como características. Útil para Cepheus Atom, Barbaric!, etc.",
+        "name": "Mostrar RES e 'Vitalidade' (FOR) como características."
+      },
+      "maxSkillLevel": {
+        "hint": "Deixe vazio para usar o padrão (9).",
+        "name": "Nível máximo de perícia."
+      },
+      "modifierForZeroCharacteristic": {
+        "hint": "Deixe vazio para usar o padrão (-2). Não recalcula automaticamente modificadores para personagens existentes.",
+        "name": "Modificador para valor de característica zero."
+      },
+      "ruleset": {
+        "hint": "Isso configurará as configurações abaixo com as melhores opções para o conjunto de regras fornecido. Observe que os conjuntos de regras no topo são os mais bem suportados. Consulte https://github.com/xdy/twodsix-foundryvtt/blob/master/docs/docs.md para detalhes. As regras relacionadas ao conjunto de regras são marcadas com uma borda verde. Quaisquer alterações nas configurações definidas pelo conjunto de regras serão marcadas com uma borda laranja.",
+        "name": "Conjunto de Regras"
+      },
+      "settingsInterface": {
+        "debugSettings": {
+          "hint": "Configurar/Visualizar as configurações de depuração e recursos experimentais.",
+          "intro": "Configurações Experimentais e de Depuração",
+          "name": "Configurações Experimentais e de Depuração"
+        },
+        "displaySettings": {
+          "hint": "Configurar as configurações de exibição.",
+          "intro": "Configurações de Exibição",
+          "name": "Configurações de Exibição"
+        },
+        "itemSettings": {
+          "hint": "Configurar os campos de item que são mostrados.",
+          "intro": "Configurações de Item",
+          "name": "Configurações de Item"
+        },
+        "rulesetSettings": {
+          "hint": "Configurar as configurações do conjunto de regras.",
+          "intro": "Regras Atuais",
+          "modified": "modificado",
+          "name": "Configurações Avançadas do Conjunto de Regras"
+        }
+      },
+      "shipInitiativeFormula": {
+        "hint": "Ex: \"2d6\"",
+        "name": "Fórmula de Iniciativa da Nave"
+      },
+      "showAlternativeCharacteristics": {
+        "hint": " Base: seis características básicas (FOR, DES, RES, INT, EDU e STA). Base: as seis principais mais PSI. Alternativa: as seis principais mais duas características Alternativas. Todas: as seis principais mais PSI mais três características Alternativas.",
+        "name": "Selecionar características a serem exibidas"
+      },
+      "showContaminationBelowLifeblood": {
+        "hint": "Mostrar Contaminação abaixo de Vitalidade. Útil apenas junto com a configuração 'mostrar RES e vitalidade'.",
+        "name": "Mostrar Contaminação abaixo de Vitalidade."
+      },
+      "ShowDamageType": {
+        "hint": "marcado=Mostrar o campo 'Tipo de Dano', desmarcado=Ocultá-lo",
+        "name": "Mostrar o campo 'Tipo de Dano' nas fichas de arma (e feitiço)"
+      },
+      "showHeroPoints": {
+        "hint": "Mostrar contador de Pontos de Herói na ficha do ator.",
+        "name": "Mostrar Pontos de Herói"
+      },
+      "usePDFPagerForRefs": {
+        "hint": "Usar com PDF Pager para mostrar referências. O formato deve ser '[nome do código] [número da página]'. Se a configuração for falsa, links de URL para referências serão usados.",
+        "name": "Usar módulo PDF-Pager para mostrar referências"
+      },
+      "ShowLawLevel": {
+        "hint": "marcado=Mostrar o campo 'Nível Legal', desmarcado=Ocultá-lo",
+        "name": "Mostrar o campo 'Nível Legal' nas fichas de arma"
+      },
+      "showLifebloodStamina": {
+        "hint": "Mostrar as características Vitalidade e Estamina na ficha do ator. O dano será aplicado a essas características. Útil para Cepheus Deluxe.",
+        "name": "Mostrar as características Vitalidade e Estamina e usá-las para dano."
+      },
+      "ShowRangeBandAndHideRange": {
+        "hint": "marcado=Mostra 'Faixa de Alcance', desmarcado=Mostra 'Alcance'",
+        "name": "Mostrar 'Faixa de Alcance' e *ocultar* 'Alcance' nas fichas de arma e na ficha do personagem"
+      },
+      "ShowRateOfFire": {
+        "hint": "marcado=Mostrar o campo 'Cadência de Tiro', desmarcado=Ocultá-lo",
+        "name": "Mostrar o campo 'Cadência de Tiro' nas fichas de arma"
+      },
+      "ShowRecoil": {
+        "hint": "marcado=Mostrar o campo 'Recuo', desmarcado=Ocultá-lo",
+        "name": "Mostrar o campo 'Recuo' nas fichas de arma"
+      },
+      "ShowDoubleTap": {
+        "hint": "marcado=Mostrar o campo 'Tiro Duplo', desmarcado=Ocultá-lo",
+        "name": "Mostrar o campo 'Tiro Duplo' nas fichas de arma"
+      },
+      "showSingleComponentColumn": {
+        "hint": "Mostrar a lista de componentes da nave como uma única linha.",
+        "name": "Componentes da nave listados como uma única linha"
+      },
+      "showBandwidth": {
+        "hint": "Mostrar a largura de banda usada e disponível para computadores e software.",
+        "name": "Largura de banda de computação da nave"
+      },
+      "ShowWeaponType": {
+        "hint": "marcado=Mostrar o campo 'Tipo de Arma', desmarcado=Ocultá-lo",
+        "name": "Mostrar o campo 'Tipo de Arma' nas fichas de arma"
+      },
+      "showWeightUsage": {
+        "hint": "Exibir valores de peso da nave em vez de energia na ficha da nave.",
+        "name": "Mostrar Peso em vez de gerenciamento de Energia na Ficha da Nave"
+      },
+      "systemMigrationVersion": {
+        "hint": "Registra a versão do esquema para o sistema Twodsix. (Não modifique isso a menos que você saiba o que está fazendo)",
+        "name": "Versão do Esquema do Sistema"
+      },
+      "termForAdvantage": {
+        "hint": "Não use o mesmo que para termForDisadvantage...",
+        "name": "Como você quer chamar as rolagens com vantagem (3d6kh2)."
+      },
+      "termForDisadvantage": {
+        "hint": "Não use o mesmo que para termForAdvantage...",
+        "name": "Como você quer chamar as rolagens com desvantagem (3d6kl2)."
+      },
+      "useFoundryStandardStyle": {
+        "default": "Estilo Padrão Twodsix",
+        "foundry": "Estilo Padrão Foundry VTT",
+        "hint": "Usar o estilo padrão do Foundry para a interface do usuário. Isso deve tornar alguns módulos mais compatíveis com TWODSIX",
+        "name": "Usar Estilo Padrão do Foundry"
+      },
+      "useModuleFixStyle": {
+        "hint": "Modifica o estilo CSS para corrigir problemas de estilo identificados para certos módulos ao usar o estilo Twodsix. Não funciona ao usar o estilo padrão do Foundry.",
+        "name": "Corrigir alguns problemas de estilo css devido a módulos e ao estilo padrão Twodsix."
+      },
+      "useShipAutoCalcs": {
+        "hint": "Quando ativado, as estatísticas de energia, peso, largura de banda e preço do resumo da nave são calculadas com base nos valores dos componentes. Caso contrário, os valores são inseridos pelo usuário.",
+        "name": "Calcular automaticamente os valores de resumo de energia, peso, largura de banda e preço da nave"
+      },
+      "useSystemDefaultTokenIcon": {
+        "hint": "Usar o ícone de token padrão do sistema Foundry VTT (homem misterioso) em vez do ícone padrão Twodsix ao criar um novo Ator. Marque esta configuração ao usar imagens personalizadas para que o sistema defina automaticamente a imagem do token para ser a mesma da imagem do ator.",
+        "name": "Usar o ícone de token padrão do Foundry VTT em vez do Twodsix para novos atores."
+      },
+      "useWoundedStatusIndicators": {
+        "hint": "Usa indicadores de status para indicar o status de ferido e rola automaticamente testes de inconsciência em feridas graves. Os modificadores de rolagem abaixo são aplicados a todas as rolagens.",
+        "name": "Exibir indicadores de status de ferido e aplicar modificadores de rolagem"
+      },
+      "minorWoundsRollModifier": {
+        "hint": "O modificador para todas as rolagens quando o ator tem feridas leves (negativo subtrai da rolagem ou aumenta o MD).",
+        "name": "Modificador de Rolagem para feridas leves"
+      },
+      "seriousWoundsRollModifier": {
+        "hint": "O modificador para todas as rolagens quando o ator tem feridas graves (negativo subtrai da rolagem ou aumenta o MD).",
+        "name": "Modificador de Rolagem para feridas graves"
+      },
+      "weightModifierForWornArmor": {
+        "hint": "Fator para multiplicar o valor de peso de uma armadura se ela estiver atualmente equipada.",
+        "name": "Fator para multiplicar o valor de peso de uma armadura equipada."
+      },
+      "useProseMirror": {
+        "hint": "Usar o editor HTML incorporado para blocos de entrada maiores.",
+        "name": "Usar editor ProseMirror para blocos de entrada maiores."
+      },
+      "showIcons": {
+        "hint": "Usar ícones em vez de texto para informações biográficas. Os ícones são sempre mostrados ao usar vitalidade e estamina.",
+        "name": "Usar ícones para informações biográficas."
+      },
+      "maxComponentHits": {
+        "hint": "O número de acertos no qual o componente é destruído",
+        "name": "Acertos máximos para um componente."
+      },
+      "mortgagePayment": {
+        "hint": "O número pelo qual dividir o custo da nave para determinar os pagamentos mensais da hipoteca ao longo de 40 anos. Um valor de 240 significa que o custo da nave é dividido por 240 para determinar o pagamento mensal.",
+        "name": "Termos de Pagamento de Hipoteca."
+      },
+      "massProductionDiscount": {
+        "hint": "A economia de custos para a construção de naves devido à produção em massa. Um valor de 0.1 significa que 10% é deduzido do preço base da nave.",
+        "name": "Desconto para nave sendo produzida em massa"
+      },
+      "reverseHealingOrder": {
+        "hint": "A cura usando a entrada da barra de token cura na mesma ordem em que o dano automático ocorre. A primeira característica danificada também é a primeira curada. Se esta configuração for falsa, a cura começa com a última característica e funciona para trás.",
+        "name": "Inverter ordem de cura de característica"
+      },
+      "maxEncumbrance": {
+        "hint": "Fórmula para calcular o encargo máximo para o ator.",
+        "name": "Fórmula de Massa Carregada Máxima"
+      },
+      "allowDropOnIcon": {
+        "hint": "Itens podem ser soltos e adicionados a atores diretamente em cima do ícone sem abrir a ficha do ator. Itens duplicados aumentam a quantidade do inventário. Itens de dano do chat aplicarão dano.",
+        "name": "Permitir que Itens sejam soltos em ícones"
+      },
+      "defaultMovement": {
+        "hint": "O movimento/caminhada padrão para novos viajantes (tipicamente uma ação menor), ex: 10 para 10m",
+        "name": "A taxa de movimento de caminhada padrão"
+      },
+      "defaultMovementUnits": {
+        "hint": "As unidades de movimento/caminhada padrão para novos viajantes (tipicamente uma ação menor), ex: m para 10m",
+        "name": "As unidades de movimento padrão para a taxa de caminhada"
+      },
+      "useEncumbrance": {
+        "hint": "Usar regras de encargo (se existirem) ao exibir movimento com a régua de arrasto (drag ruler).",
+        "name": "Usar regras de Massa Carregada do sistema para régua de arrasto"
+      },
+      "addEffectForShipDamage": {
+        "hint": "O valor de efeito de ataque da nave é adicionado à rolagem de dano.",
+        "name": "Adicionar efeito ao dano da nave"
+      },
+      "autoAddUnarmed": {
+        "hint": "Quando marcado (verdadeiro), a arma desarmada será adicionada automaticamente ao inventário para novos atores (conforme as configurações de regras).",
+        "name": "Adicionar automaticamente arma desarmada a novos atores"
+      },
+      "unarmedDamage": {
+        "hint": "Fórmula de dados para dano desarmado usada quando Desarmado é adicionado automaticamente a atores.",
+        "name": "Fórmula de Dano Desarmado"
+      },
+      "showTimeframe": {
+        "hint": "Adicionar opções de tempo de execução às rolagens de perícia/característica.",
+        "name": "Mostrar Tempo de Execução no Diálogo de Rolagem"
+      },
+      "showStatusIcons": {
+        "hint": "Sobrepor ícones de condição na lateral das imagens dos atores nas fichas.",
+        "name": "Mostrar ícones de condição nas fichas de viajante"
+      },
+      "showHullAndArmor": {
+        "hint": "Opção para escolher informações na área de proteção das fichas de veículo. As opções são: apenas armadura (uma caixa de texto simples); limiares (valores de rolagem para acertos regulares e críticos); Armadura, Casco, Estrutura (tabela de três campos de dano); e Armadura e Casco Detalhados (armadura e casco por face).",
+        "name": "Valores de proteção nas fichas de veículo"
+      },
+      "addEffectToDamage": {
+        "hint": "Esta opção adiciona o efeito da rolagem à rolagem de dano.",
+        "name": "Adicionar efeito ao rolar dano"
+      },
+      "addEffectToManualDamage": {
+        "hint": "Esta opção adiciona o efeito da mensagem de chat mais recente a uma rolagem de dano manual. A configuração acima (Adicionar efeito ao rolar dano) deve estar ativada",
+        "name": "Adicionar efeito ao rolar dano manual"
+      },
+      "showRangeSpeedNoUnits": {
+        "hint": "Omitir as unidades de alcance e velocidade (ex: km/h) na ficha do veículo.",
+        "name": "Não mostrar unidades de alcance e velocidade"
+      },
+      "showInitiativeButton": {
+        "hint": "Mostrar um botão de rolagem de iniciativa na ficha do ator na aba de perícias.",
+        "name": "Mostrar Botão de Rolagem de Iniciativa"
+      },
+      "showSkillCountsRanks": {
+        "hint": "Mostrar uma contagem do número de perícias treinadas e a soma dos níveis (rank) na parte inferior da aba de perícias.",
+        "name": "Mostrar Contagem e Níveis de Perícias na Ficha de Viajante"
+      },
+      "showComponentSummaryIcons": {
+        "hint": "Mostrar ícones de resumo para componentes abaixo da imagem da nave.",
+        "name": "Mostrar Ícones de Resumo de Componente"
+      },
+      "showSpells": {
+        "hint": "Mostrar listas de feitiços nas fichas de ator.",
+        "name": "Mostrar Feitiços"
+      },
+      "sorcerySkill": {
+        "hint": "O nome da perícia padrão usada para conjuração / feitiçaria.",
+        "name": "Nome da perícia de feitiçaria padrão"
+      },
+      "useNationality": {
+        "hint": "Exibir campo de nacionalidade em vez de campo de mundo natal na ficha do ator.",
+        "name": "Exibir nacionalidade em vez de mundo natal"
+      },
+      "animalsUseHits": {
+        "hint": "Animais têm apenas uma estatística de dano: acertos.",
+        "name": "Animais usam acertos para dano"
+      },
+      "animalsUseLocations": {
+        "hint": "Animais são descritos pela localização encontrada em vez de tipo e nicho.",
+        "name": "Animais usam localização em vez de tipo"
+      },
+      "displayReactionMorale": {
+        "hint": "Mostrar informações de reação e moral na ficha do animal.",
+        "name": "Mostrar reação e moral do animal"
+      },
+      "robotsUseHits": {
+        "hint": "Robôs têm apenas uma estatística de dano: acertos.",
+        "name": "Robôs usam acertos para dano"
+      },
+      "showComponentRating": {
+        "hint": "Mostrar campo de classificação na ficha de item de componente de nave.",
+        "name": "Mostrar classificação de componente"
+      },
+      "showComponentDM": {
+        "hint": "Mostrar campo de MD na ficha de item de componente de nave.",
+        "name": "Mostrar MD de componente"
+      },
+      "useEncumbranceStatusIndicators": {
+        "hint": "Usa indicadores de status para indicar o status de encargo. Os modificadores de rolagem abaixo são aplicados a todas as rolagens de característica física.",
+        "name": "Exibir indicadores de status de Massa Carregada e aplicar modificadores de rolagem"
+      },
+      "encumbranceFraction": {
+        "hint": "A fração aplicada à fórmula de Massa Carregada máxima para indicar que o ator está sobrecarregado. Por exemplo, um valor de 0.5 significaria que o ator fica sobrecarregado quando o peso carregado excede metade do Massa Carregada máximo.",
+        "name": "Fração da Massa Carregada máxima quando o modificador de rolagem de Massa Carregada se aplica"
+      },
+      "encumbranceModifier": {
+        "hint": "O número a ser adicionado ao modificador de característica física (FOR, RES, DES) quando sobrecarregado. Por exemplo, -1 indica que um deve ser subtraído para todas as rolagens envolvendo características físicas.",
+        "name": "Modificador de Rolagem usando características físicas quando o ator está sobrecarregado"
+      },
+      "transferDroppedItems": {
+        "hint": "Substitui o comportamento padrão do Foundry de copiar em arrastar e soltar para transferir itens (itens removidos do ator de origem) ao arrastar e soltar equipamento entre atores.",
+        "name": "Transferir em vez de copiar equipamento solto em atores"
+      },
+      "allowDragDropOfListsActor": {
+        "hint": "Permitir que itens em listas para Atores (ou seja, Viajantes, Animais e Robôs) sejam movidos por arrastar e soltar em vez de serem ordenados alfabeticamente.",
+        "name": "Permitir Arrastar e Soltar em Listas de Ator"
+      },
+      "allowDragDropOfListsShip": {
+        "hint": "Permitir que itens em listas para Naves e Veículos sejam movidos por arrastar e soltar em vez de serem ordenados alfabeticamente.",
+        "name": "Permitir Arrastar e Soltar em Listas de Naves e Veículos"
+      },
+      "useDodgeParry": {
+        "hint": "Adicionar uma penalidade de rolagem que reflete a capacidade de esquivar/aparar de um alvo. Um alvo deve ser selecionado e o nome da perícia para a ação da arma deve corresponder.",
+        "name": "Usar Modificadores de Ataque de Esquiva / Aparo"
+      },
+      "showModifierDetails": {
+        "hint": "Mostrar valores de modificador de rolagem na linha de sabor da rolagem, ex: FOR(+1) versus FOR.",
+        "name": "Exibir modificadores de rolagem no texto da rolagem do chat"
+      },
+      "defaultColor": {
+        "hint": "Mudar a cor principal do tema. Excluir valor para redefinir.",
+        "name": "Definir Cor Padrão"
+      },
+      "lightColor": {
+        "hint": "Mudar a cor de destaque do tema. Excluir valor para redefinir.",
+        "name": "Definir Cor de Destaque"
+      },
+      "damageStatColor": {
+        "hint": "Mudar a cor do dano de característica na ficha do ator. Excluir valor para redefinir.",
+        "name": "Definir Cor de Dano de Característica"
+      },
+      "battleColor": {
+        "hint": "Mudar a cor do tema para a ficha de batalha da nave. Excluir valor para redefinir.",
+        "name": "Definir Cor da Ficha de Batalha"
+      },
+      "useItemActiveEffects": {
+        "hint": "Usar Efeitos Ativos de Item. AVISO: pode resultar em comportamento estranho do sistema.",
+        "name": "Usar Efeitos Ativos de Item"
+      },
+      "showFeaturesInChat": {
+        "hint": "Mostrar texto de características do item na parte inferior das mensagens de chat para rolagens.",
+        "name": "Mostrar Características do Item no Chat"
+      },
+      "showHitsChangesInChat": {
+        "hint": "Mostrar uma mensagem de chat sussurrada para o GM quando dano/cura é aplicado a um ator.",
+        "name": "Mostrar mensagem de chat de dano/cura para o GM"
+      },
+      "encumbFractionOneSquare": {
+        "hint": "Esta é uma configuração do módulo Drag Ruler para definir o limite de movimento de um 'quadrado'. A fração aplicada à fórmula de Massa Carregada máxima. Aplica-se apenas quando o OUTRO conjunto de regras está em uso.",
+        "name": "Fração da Massa Carregada máxima para 1.5m/5ft de movimento"
+      },
+      "encumbFraction75pct": {
+        "hint": "Esta é uma configuração do módulo Drag Ruler para definir o limite de movimento de 75 por cento. A fração aplicada à fórmula de Massa Carregada máxima. Aplica-se apenas quando o OUTRO conjunto de regras está em uso.",
+        "name": "Fração da Massa Carregada máxima para taxa de movimento de 75 por cento"
+      },
+      "useTabbedViews": {
+        "hint": "Usar uma ficha com abas para fichas de itens mais longas e configurações do sistema em vez de uma ficha plana.",
+        "name": "Usar visualizações com abas para fichas de armas, componentes e configurações do sistema"
+      },
+      "damageTypeOptions": {
+        "hint": "Uma lista separada por vírgulas que especifica os tipos de dano permitidos. Observe que usar o conjunto de regras CU substitui esta configuração.",
+        "name": "Tipos de Dano e Proteção"
+      },
+      "animalTypesIndependentofNiche": {
+        "hint": "Animais podem ter qualquer tipo, independentemente do nicho escolhido.",
+        "name": "Tipos de Animais São Independentes do Nicho"
+      },
+      "reduceStatusIcons": {
+        "hint": "Remover condições de status desnecessárias do Foundry padrão que não se aplicam a um cenário de ficção científica, ex: amaldiçoado. AVISO: mudar esta configuração de verdadeiro (marcado) para falso (desmarcado) recarregará o mundo.",
+        "name": "Simplificar a lista de ícones de condição padrão para um cenário de ficção científica"
+      },
+      "overrideDamageRoll": {
+        "hint": "Definir a rolagem de dano automática para um escopo mundial e substituir as configurações do cliente. AVISO: Requer que todos os clientes recarreguem quando a configuração for alterada.",
+        "name": "Substituir rolagens de dano automáticas para clientes pela configuração do GM."
+      },
+      "autoDamageTarget": {
+        "hint": "Dano automaticamente um ator alvo sem mostrar o pop-up de dano em uma rolagem de ataque bem-sucedida.",
+        "name": "Dano Automático em Alvos"
+      },
+      "useDegreesOfSuccess": {
+        "hint": "Mostrar graus de sucesso. A configuração 'Outro' usa descrições excepcional, marginal e média para sucesso e falha. A configuração 'Cepheus Engine' não usa o descritor marginal (conforme as regras). A configuração 'Nenhum' omite todas as descrições de sucesso ou falha.",
+        "name": "Mostrar graus de sucesso para rolagens não relacionadas a ataque"
+      },
+      "overrideSuccessWithNaturalCrit": {
+        "hint": "Substituir o grau de sucesso para ser excepcional em um 2 ou 12 natural - independente do efeito.",
+        "name": "Substituir grau de sucesso em rolagem crítica (2 ou 12)"
+      },
+      "showTotalArmor": {
+        "hint": "Exibir o valor total da armadura (valores primário + secundário) em vez do valor de armadura secundário para a ficha de Viajante.",
+        "name": "Exibir valor total da armadura no Viajante"
+      },
+      "showItemIconsInChat": {
+        "hint": "Mostrar o ícone do item ou perícia na mensagem do chat ao fazer uma rolagem",
+        "name": "Mostrar Imagem do Item no Chat"
+      },
+      "defaultDamageOptions": "Balístico, Contusão, Corrosivo, PEM, Energia, Fogo, Laser, Perfurante, Veneno, Plasma, Psiônico, Rad, Cortante, Fumaça, Atordoamento",
+      "menuLabels": {
+        "general": "Geral",
+        "roll": "Rolagens",
+        "characteristics": "Características",
+        "formulas": "Fórmulas",
+        "damage": "Dano",
+        "movement": "Movimento",
+        "encumbrance": "Massa Carregada",
+        "wounds": "Ferimentos",
+        "ship": "Nave",
+        "animals_robots": "Animais & Robôs",
+        "weapon": "Arma",
+        "token": "Token",
+        "actor": "Ator",
+        "dragDrop": "Arrastar & Soltar",
+        "style": "Estilo"
+      },
+      "useMaxArmorValue": {
+        "hint": "Usar o valor máximo de armadura para determinar a proteção se mais de uma camada de armadura estiver sendo usada. O padrão (falso) adiciona todos os valores de armadura para cada camada usada. AVISO: Requer que todos os clientes recarreguem quando a configuração for alterada.",
+        "name": "Usar valor máximo de armadura em vez da soma ao usar múltiplas camadas"
+      },
+      "showActorReferences": {
+        "hint": "Exibir referências de pdf (usando o módulo pdf pager) ou links de url em todas as fichas de ator.",
+        "name": "Mostrar Referências PDF ou Links URL nas fichas de ator"
+      },
+      "maxSpellLevel": {
+        "hint": "Nível máximo de feitiço que pode ser usado em uma rolagem de feitiço.",
+        "name": "Nível Máximo de Feitiço"
+      },
+      "showAllCharWithTable": {
+        "hint": "Usar uma tabela, em vez de gráficos hex, ao exibir características (quando as características selecionadas para exibir são todas). O Estilo Padrão do Foundry sempre usa tabela.",
+        "name": "Usar tabela ao exibir todas as características"
+      },
+      "showTLonItemsTab": {
+        "hint": "Exibe o nível de tecnologia dos itens após o nome para listas de itens de compêndio e itens listados na aba de itens.",
+        "name": "Exibir Nível Tecnológico em Listas de Compêndio e Aba de Itens"
+      },
+      "omitPSIifZero": {
+        "hint": "Oculta a característica de força psiônica se o valor for zero.",
+        "name": "Omitir característica PSI das fichas de ator se o valor for zero"
+      },
+      "omitALTifZero": {
+        "hint": "Oculta características alternativas se o valor for zero.",
+        "name": "Omitir características ALT, INT, EDU e STA das fichas de ator se o valor for zero"
+      },
+      "rangeModifierType": {
+        "hint": "Tipo de modificador a ser usado para armas de longo alcance. Valor de Alcance Único (ex: XX, para MgT2). Valor de Alcance Duplo (ex: XX/YY para CD, CDEE, CQ, etc.). Faixas de Alcance por tipo de arma (ex: 'Escopeta' para CE e MgT1).",
+        "name": "Tipos de Modificador de Alcance para Armas"
+      },
+      "equippedToggleStates": {
+        "hint": "Estados de alternância de localização de equipamento a serem usados para a ficha do ator. Base: mochila e equipado apenas, Padrão: mochila, equipado e nave, Todos: mochila, equipado, veículo, nave e base",
+        "name": "Localizações de equipamento permitidas para a ficha do ator"
+      },
+      "targetDMList": {
+        "hint": "Uma lista separada por vírgulas de modificadores de dificuldade de alvo. A lista tem o formato 'rótulo1 número1, rótulo2 número2...'. Por exemplo, 'Obscuro -1, Caído (corpo a corpo) +1, Caído (Longo Alcance) -1'.",
+        "name": "Lista de modificadores de alvo"
+      },
+      "meleeRange": {
+        "hint": "A distância onde o combate está no alcance corpo a corpo. Tipicamente uma unidade de grade ou menos (ex: 1.5m).",
+        "name": "Alcance de combate corpo a corpo"
+      },
+      "showSkillGroups": {
+        "hint": "Agrupar perícias na ficha do ator por rótulos de grupo.",
+        "name": "Agrupar perícias por rótulos"
+      },
+      "NoDuplicatesOnHotbar": {
+        "hint": "Prevenir macros de item duplicadas ao arrastar e soltar itens na barra de atalhos",
+        "name": "Sem macros de item duplicadas na barra de atalhos"
+      },
+      "jDriveLabel": {
+        "hint": "O rótulo de exibição para o propulsor de salto nas configurações de gerenciamento de energia",
+        "name": "Rótulo do Propulsor de Salto"
+      },
+      "showCost": {
+        "hint": "Listar o custo do componente da nave em MCr para a lista de componentes de linha única na ficha da nave.",
+        "name": "Exibir Custo"
+      },
+      "chainBonus": {
+        "hint": "O MD de rolagem para rolagens em cadeia (ou auxiliar outro) baseado no efeito da rolagem anterior. Esta string de configuração é formatada como inteiros separados por vírgulas. A sequência é baseada nos valores de efeito: <=-6, -5 a -2, -1, 0, 1 a 5, >=6. Então, para Cepheus Engine, a string de configuração seria '-2, -1, -1, 1, 1, 2'. Note que se não houver seis inteiros inseridos, o bônus em cadeia é zero.",
+        "name": "MD de Rolagem Assistida/Em Cadeia"
+      },
+      "defaultActorSheetWidth": {
+        "hint": "A largura padrão da ficha de Viajante ao abrir após a inicialização - em pixels. AVISO: mudar esta configuração recarregará o mundo.",
+        "name": "Largura Padrão da Ficha de Viajante"
+      },
+      "defaultActorSheetHeight": {
+        "hint": "A altura padrão da ficha de Viajante ao abrir após a inicialização - em pixels. AVISO: mudar esta configuração recarregará o mundo.",
+        "name": "Altura Padrão da Ficha de Viajante"
+      },
+      "showAttachmentsList": {
+        "hint": "Expandir automaticamente listas de acessórios para itens na ficha de Viajante.",
+        "name": "Exibir Listas de Acessórios de Item na Ficha de Viajante"
+      },
+      "showConsumablesList": {
+        "hint": "Expandir automaticamente listas de consumíveis para itens na ficha de Viajante.",
+        "name": "Exibir Listas de Consumíveis de Item na Ficha de Viajante"
+      },
+      "showCombatPosition": {
+        "hint": "Mostrar valor de posição de combate na Ficha de Batalha",
+        "name": "Exibir Posição de Combate"
+      },
+      "componentsIgnored": {
+        "hint": "Uma lista de componentes não-carga a serem omitidos da seção 'Dano' da Ficha de Batalha",
+        "name": "Componentes Ignorados para Rastreamento de Dano"
+      },
+      "psiTalentsRequireRoll": {
+        "hint": "Usar um talento psiônico requer uma rolagem de perícia bem-sucedida",
+        "name": "Psiônicos Requerem Rolagem"
+      },
+      "autoIncrementTime": {
+        "hint": "Avançar o tempo do jogo (opcionalmente integrado com Simple Calendar) se o tempo de execução para a rolagem for selecionado.",
+        "name": "Avançar Automaticamente o Tempo do Jogo"
+      },
+      "defaultWeaponDamage": {
+        "hint": "A fórmula de dano padrão para novas armas, ex: '1d6'.",
+        "name": "Fórmula de Dano Padrão para Novas Armas"
+      },
+      "xd6RollStyle": {
+        "hint": "Usar o estilo de rolagem xd6khl (ex: Faster than Light: Nomad) para fazer rolagens.",
+        "name": "Usar estilo de rolagem xd6 (ex: FTL: Nomad)"
+      },
+      "showMovementColors": {
+        "hint": "Fazer com que a régua de movimento do token destaque as cores da grade para caminhar (verde), correr (amarelo), sprintar (laranja) e fora do alcance de movimento (vermelho) para uma rodada de combate.",
+        "name": "Exibir Cores da Grade de Movimento do Token"
+      },
+      "autoTargetAOE": {
+        "hint": "Alvejar automaticamente todos os tokens dentro de uma área de efeito (AOE). Se o ataque for bem-sucedido, uma única rolagem de dano é aplicada a todos os tokens alvejados.",
+        "name": "Selecionar alvos automaticamente para ataque de AOE"
+      },
+      "showCommonFundsMCr": {
+        "hint": "Usar unidades MCr para exibir fundos comuns da nave",
+        "name": "Exibir fundos comuns da nave como MCr"
+      },
+      "componentDamageDM": {
+        "hint": "O MD de rolagem que é aplicado para cada acerto em um componente.",
+        "name": "MD de Dano de Componente"
+      },
+      "showTraitAE": {
+        "hint": "Listar fórmulas de efeito ativo como parte da descrição curta da característica (verdadeiro) na aba Informações do Viajante. Caso contrário, mostrar apenas a descrição curta para a característica (falso).",
+        "name": "Mostrar Efeitos Ativos para Características"
+      },
+      "shipWeaponType": {
+        "hint": "CD: Tipos Cepheus Deluxe (ex: Leve, Intermediário, Pesado, Principal, Mísseis ou Especial); CE: Tipo Cepheus Engine (ex: Laser de Pulso, Laser de Feixe, Feixe de Partículas, Arma de Fusão, Canhão Mésons, Mísseis ou Lançador de Areia); CT: Tipo Classic Traveller (ex: Laser de Pulso, Laser de Feixe, Mísseis ou Lançador de Areia), ou AC - Armas Alpha Cephei",
+        "name": "Tipos de Arma de Nave"
+      },
+      "shipDamageType": {
+        "hint": "Determina como o dano da nave é gerado no relatório de dano. O estilo Componente determina o dano aos componentes diretamente (ex: Cepheus Engine). Casco com Críticos determina o dano principalmente ao casco da nave com um crítico a cada 10% do dano total do casco (ex: MgT2e). Somente Casco determina o dano apenas ao casco. Superfície ou Interno determina o dano com base na penetração da arma (ex: Cepheus Deluxe). Classic Traveller procura acertos na tabela de Localizações de Acerto. Alpha Cephei usa sua tabela específica de consulta de componentes e a armadura bloqueia acertos (não reduz). Cepheus Universal usa sua tabela de dano ao casco e acertos em componentes.",
+        "name": "Regras para lidar com dano de nave"
+      }
+    },
+    "CloseAndCreateNew": "Fechar e criar novo",
+    "Copy": "Copiar",
+    "Yes": "Sim",
+    "Name": "Nome",
+    "Credits": "Créditos",
+    "itemTypes": {
+      "equipment": "equipamento",
+      "weapon": "arma",
+      "armor": "armadura",
+      "augment": "aumento",
+      "storage": "armazenamento",
+      "tool": "ferramenta",
+      "junk": "lixo",
+      "skills": "perícias",
+      "skill": "perícia",
+      "consumable": "consumível",
+      "trait": "característica",
+      "spell": "feitiço",
+      "component": "componente",
+      "computer": "computador",
+      "unknown": "desconhecido",
+      "ship_position": "posição",
+      "psiAbility": "habilidade psiônica"
+    },
+    "SheetTypes": {
+      "TravellerSheet": "Ficha de Viajante",
+      "NPCSheet": "Ficha de NPC",
+      "RobotSheet": "Ficha de Robô",
+      "ShipSheet": "Ficha de Nave",
+      "BattleSheet": "Ficha de Batalha",
+      "VehicleSheet": "Ficha de Veículo",
+      "AnimalSheet": "Ficha de Animal",
+      "SpaceObjectSheet": "Ficha de Objeto Espacial",
+      "ItemSheet": "Ficha de Item",
+      "ShipPositionSheet": "Ficha de Posição da Nave"
+    },
+    "speeds": {
+      "walk": "caminhada",
+      "dash": "corrida (dash)",
+      "run": "sprint (run)",
+      "jump": "salto"
+    },
+    "Errors": {
+      "NoSkillForSkillRoll": "Você tentou realizar uma rolagem de perícia sem especificar uma perícia",
+      "NoCharacteristicForRoll": "Você tentou realizar uma rolagem de característica sem especificar uma característica",
+      "NoROFForAttack": "A cadência de tiro deve ser especificada para este ataque",
+      "TooFewToReload": "Muito pouco _NAME_ para _REFILL_ACTION_",
+      "NoAmmo": "Você está sem munição. Precisa recarregar antes de atirar!",
+      "EmptyConsumable": "Não resta suprimento consumível. Você precisa reabastecer!",
+      "OnlyOwnedItems": "Só pode soltar em itens que são de propriedade de um ator",
+      "SkillsConsumables": "Perícias não podem ter consumíveis",
+      "DraggingSomething": "Arrastando algo que não pode ser arrastado",
+      "OnlyDropItems": "Você só pode soltar itens",
+      "OnlyDropConsumables": "Apenas consumíveis podem ser soltos em um item.",
+      "DropFailedWith": "Falha ao soltar com _ERROR_MSG_",
+      "CouldNotFindItem": "Não foi possível encontrar um item com id: _ITEM_ID_",
+      "DraggedCompendiumIsNotItem": "O objeto de compêndio arrastado não é um item.",
+      "InvalidRollFormula": "Não é uma fórmula de rolagem de dano válida.",
+      "CantPlaceTemplate": "Erro ao colocar Modelo medido de AOE.",
+      "TraitsandSkillsNoConsumables": "Feitiços, Características e Perícias não podem ter consumíveis.",
+      "InvalidRangeBand": "Tipo de arma e/ou faixa de alcance não permitidos para o conjunto de regras.",
+      "InvalidWeaponArmor": "Tipo de arma e/ou Tipo de Armadura não permitidos para o conjunto de regras.",
+      "CantDropAttachOnConsumables": "Não é possível soltar acessórios em consumíveis."
+    },
+    "Warnings": {
+      "ActorMissingItem": "Seu Ator controlado não possui um item com id: _ITEM_ID_",
+      "MaxStatVal": "O valor excede o valor máximo de estatística",
+      "StatValBelowZero": "O valor não pode ser menor que zero",
+      "DecreaseEnduranceFirst": "Resistência/Estamina deve ser diminuída antes de outras estatísticas",
+      "CantAutoDamage": "Dano automático de nave ou veículo não é suportado",
+      "CantDropOnToken": "Soltar itens em tokens de nave ou veículo não é suportado",
+      "CantDragOntoActor": "Este item não pode ser arrastado para este ator",
+      "CantDragActorOntoActor": "Só é possível arrastar a referência do ator para uma caixa de texto ProseMirror ativa.",
+      "PDFPagerNotInstalled": "O PDF Pager deve estar instalado para usar links de fonte.",
+      "NoSpecfiedLink": "Nenhum documento e página especificados para o link do documento.",
+      "NoTargetFound": "Nenhum alvo para soltar encontrado.",
+      "LackPermissionToDamage": "Você não tem permissões suficientes no ator alvo.",
+      "MultipleActorsFound": "Múltiplos atores encontrados. Não é possível aplicar dano.",
+      "EncumbranceFormulaInvalid": "A Fórmula de Massa Carregada não é válida. O valor é definido como zero.",
+      "ActorHasInitiativeAlready": "O ator já tem iniciativa.",
+      "NoActiveToken": "O ator não tem um token ativo na cena.",
+      "InvalidReactionInputs": "A rolagem de reação não pode ser feita, pois as entradas de ataque e fuga são inválidas.",
+      "AnimalsCantHoldPositions": "Animais não podem ser colocados em posições de nave",
+      "CantEditCreateInCargo": "Não é possível editar ou criar efeitos enquanto estiver em carga",
+      "NoActorSelected": "Um ator deve ser selecionado ou controlado",
+      "NoSkillSelected": "Deve selecionar uma perícia para fazer uma rolagem",
+      "NoDamageForWeapon": "Esta arma não especificou o dano que causa.",
+      "ActionWarningNoToken": "Nenhum alvo selecionado para a ação.",
+      "CantEditEffect": "Não é possível editar o efeito para o item que está incorporado em um não-ator.",
+      "CantCreateEffect": "Não é possível criar um efeito para o item que está incorporado em um não-ator.",
+      "CantDeleteEffect": "Não é possível deletar um efeito para o item que está incorporado em um não-ator.",
+      "PlayerDoesNotHavePermission": "O jogador não tem permissão para executar a macro.",
+      "MacroNotFound": "Macro com nome, _MACRO_NAME_, não encontrada.",
+      "NoDamageToApply": "Os valores de dano ou cura devem ser maiores que zero.",
+      "MissingUntrainedSkill": "O ator está sem a perícia não treinada. Recarregue o aplicativo para corrigir.",
+      "TooManyTargets": "Mais alvos do que o número de ataques, os alvos serão escolhidos na ordem selecionada.",
+      "WearingMultipleLayers": "Múltiplas camadas de armadura equipadas enquanto usa armadura não empilhável.",
+      "ResetEffectForManualDamage": "Efeitos não incluídos nas rolagens de dano. Redefinindo efeitos em rolagens manuais para falso.",
+      "tableNotFound": "Não foi possível encontrar RollTable no Link de Entrada do Diário.",
+      "typeMismatch": "O link/UUID da RollTable na Entrada do Diário não é uma RollTable.",
+      "MacroNameExists": "A macro com esse nome existe, mas o comando é diferente. Atualizar para o novo comando?",
+      "TooManyLayersOnTarget": "O alvo está usando muitas camadas de armadura",
+      "ActorOverloaded": "O ator atual está carregando mais do que sua capacidade.",
+      "NoJournalFound": "Não foi possível encontrar a Entrada de Diário vinculada",
+      "CantFindMeleeSkill": "Não foi possível encontrar a perícia Combate Corpo a Corpo",
+      "CantFindMeleeWeapon": "Não foi possível encontrar uma arma corpo a corpo equipada para aparar",
+      "CantFindShield": "Não foi possível encontrar um escudo equipado para bloquear",
+      "NoPsiPoints": "Deve ter pelo menos um ponto psiônico para usar uma habilidade",
+      "PsiUsageGTZero": "Pontos PSI usados devem ser maiores que zero",
+      "InvalidFormula": "A Fórmula é Inválida para: ",
+      "ConfirmDrop": "Adicionar todo o conteúdo da pasta ao ator?",
+      "AddMultipleItems": "Adicionar Múltiplos Itens",
+      "CantDropFolder": "Não é possível soltar esta pasta no ator.",
+      "SkillsWithDuplicateNames": "Nomes de perícia duplicados. A lista de perícias não está precisa.",
+      "CantFindItem": "Não foi possível encontrar o item com o nome",
+      "NotUsingPsiStrength": "As configurações de características não incluem Força Psiônica. Não é possível usar Habilidade Psiônica.",
+      "CantFindItemOnActor": "Não foi possível encontrar o item selecionado no Ator.",
+      "NoAvailableActors": "Nenhum Viajante ou Robô disponível para selecionar"
+    },
+    "TYPES": {
+      "Item": {
+        "backpack": "Mochila",
+        "container": "Recipiente",
+        "consumable": "Consumível",
+        "equipment": "Equipamento",
+        "spell": "Feitiço",
+        "tool": "Ferramenta",
+        "weapon": "Arma",
+        "armor": "Armadura",
+        "skill": "Perícia",
+        "component": "Componente",
+        "computer": "Computador",
+        "augment": "Aumento",
+        "storage": "Armazenamento",
+        "junk": "Lixo",
+        "skills": "Perícias",
+        "trait": "Característica",
+        "psiAbility": "Habilidade Psiônica",
+        "ship_position": "Posição da Nave",
+        "backpackPl": "Mochilas",
+        "containerPl": "Recipientes",
+        "consumablePl": "Consumíveis",
+        "equipmentPl": "Equipamentos",
+        "spellPl": "Feitiços",
+        "toolPl": "Ferramentas",
+        "weaponPl": "Armas",
+        "armorPl": "Armaduras",
+        "skillPl": "Perícias",
+        "componentPl": "Componentes",
+        "computerPl": "Computadores",
+        "augmentPl": "Aumentos",
+        "storagePl": "Armazenamento",
+        "junkPl": "Lixo",
+        "skillsPl": "Perícias",
+        "traitPl": "Características",
+        "ship_positionPl": "Posições da Nave",
+        "psiAbilityPl": "Habilidades Psiônicas"
+      },
+      "Actor": {
+        "traveller": "Viajante",
+        "ship": "Nave",
+        "vehicle": "Veículo",
+        "animal": "Animal",
+        "robot": "Robô",
+        "space-object": "Objeto Espacial",
+        "travellerPl": "Viajantes",
+        "shipPl": "Naves",
+        "vehiclePl": "Veículos",
+        "animalPl": "Animais",
+        "space-objectPl": "Objetos Espaciais",
+        "robotPl": "Robôs"
+      }
+    },
+    "EFFECT": {
+      "StatusWounded": "Ferido",
+      "StatusEncumbered": "Sobrecarregado",
+      "StatusDead": "Morto",
+      "StatusUnconscious": "Inconsciente",
+      "StatusAiming": "Mirando",
+      "StatusFatigued": "Fadigado",
+      "StatusInCover": "Em Cobertura",
+      "StatusThrust": "Impulso",
+      "StatusInvisible": "Furtivo",
+      "StatusIrradiated": "Irradiado",
+      "StatusTargetLock": "Alvo Travado"
+    }
+}

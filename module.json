@@ -1,0 +1,35 @@
+{
+  "name": "twodsix-pt-br-translation",
+  "title": "Tradução Português (Brasil) para Twodsix (Traveller)",
+  "description": "Tradução completa para o sistema Twodsix (Traveller) para Foundry VTT.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "11.307",
+  "compatibleCoreVersion": "12",
+  "authors": [
+    {
+      "name": "Seu Nome Aqui"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "dependency": [
+    {
+      "name": "twodsix",
+      "type": "system",
+      "manifest": "https://raw.githubusercontent.com/xdy/twodsix-foundryvtt/master/system.json",
+      "required": true
+    }
+  ],
+  "download": "COLE AQUI O LINK DIRETO DO ARQUIVO ZIP DA RELEASE (PASSO 3)",
+  "url": "COLE AQUI O LINK DA PÁGINA DO SEU REPOSITÓRIO NO GITHUB",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "type": "module"
+}
